@@ -1,0 +1,21 @@
+#caja1 {
+    margin: 50px;
+    border: 40px solid  #cdb4db;
+    padding: 10px;
+    height: 150px;
+    width: 200px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(50,186,76,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+#caja2 {
+    margin: 50px;
+    border: 40px solid  #cdb4db;
+    padding: 10px;
+    height: 150px;
+    width: 200px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(50,186,183,1) 48%, rgba(0,212,255,1) 100%);
+    box-sizing: border-box;
+    
+}

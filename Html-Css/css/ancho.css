@@ -1,0 +1,64 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#contenedor {
+    width: 958px;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    outline: 1px solid black;
+    background: #eee;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+header {
+    height: 100px;
+    margin: 0 5px 0 5px;
+    outline: 1px solid white;
+    background: #cc0;
+}
+
+footer {
+    height: 100px;
+    margin: 0 5px 0 5px;
+    outline: 1px solid white;
+    background: #cc0;
+}
+
+section {
+    width: 750px;
+    height: 400px;
+    float: left;
+    margin-bottom: 5px;
+}
+
+section > article {
+    float: left;
+    width: 370px;
+    height: 400px;
+    margin-left: 5px;
+    outline: 1px solid red;
+}
+
+aside {
+    width: 208px;
+    height: 400px;
+    float: left;
+}
+
+aside > article {
+    width: 198px;
+    height: 400px;
+    margin: 0 5px 0 5px;
+    outline: 1px solid green;
+}
+
+footer {
+    clear: both;
+}
+ 

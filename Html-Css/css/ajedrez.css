@@ -1,0 +1,33 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    overflow: hidden;
+}
+
+span {
+    display: inline-block;
+    width: 12.5vw;
+    height: 12.5vh;
+    background: #fff;
+    outline: 1px solid red;
+}
+
+span:nth-child(odd) {background: #fff;}
+span:nth-child(even) {background: #000;}
+span:nth-child(2n+9) {background: #000;}
+span:nth-child(2n+10) {background: #fff ;}
+span:nth-child(2n+17) {background: #fff;}
+span:nth-child(2n+18) {background: #000;}
+span:nth-child(2n+25) {background: #000;}
+span:nth-child(2n+26) {background: #fff;}
+span:nth-child(2n+33) {background: #fff;}
+span:nth-child(2n+34) {background: #000;}
+span:nth-child(2n+41) {background: #000;}
+span:nth-child(2n+42) {background: #fff;}
+span:nth-child(2n+49) {background: #fff;}
+span:nth-child(2n+50) {background: #000;}
+span:nth-child(2n+57) {background: #000;}
+span:nth-child(2n+58) {background: #fff;}

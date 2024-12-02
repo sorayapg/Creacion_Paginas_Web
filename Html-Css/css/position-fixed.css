@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+main {
+    position: absolute;
+}
+
+.superior {
+    width: 100%;
+    height: 5rem;
+    outline: 1px solid red;
+    top: 0px;
+    background: rgba(133, 133, 133, 1);
+
+    position: fixed;
+}
+
+.contenido {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.inferior {
+    width: 100%;
+    height: 5rem;
+    outline: 1px solid red;
+    bottom: 0;
+    background: rgba(133, 133, 133, 1);
+
+    position: fixed;
+}

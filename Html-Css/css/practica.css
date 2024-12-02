@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,400,700');
+
+* {
+outline: 1px solid red;
+}
+
+body {
+    font-family: roboto;
+}
+
+ul {
+    list-style: none;
+}
+
+li::before {
+    content: "··· ";
+    color: #f00;
+}
+
+#parrafo1 {
+    font-size: 20px;
+    font-weight: 100;
+    color: rgba(100, 100, 100, 1);
+    margin: 0 40px;
+}
+
+#parrafo1:before {
+    content: "- ";
+}
+
+#parrafo1::after {
+    content: " -";
+}
+
+#parrafo2 {
+    border: 1px solid yellow;
+    margin: 10px;
+    padding: 10px;
+}
+
+#parrafo3 {
+    width: 25%;
+    margin: 0 auto;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+.parrafo_listas {
+    font-size: 18px;
+    font-weight: 100;
+    color: rgba(50, 150, 150, 1);
+}

@@ -1,0 +1,61 @@
+#contenedor {
+    width: 93.7%;
+    max-width: 1100px;
+    min-width: 600px;
+    margin: 10px auto 0 auto;
+    border: 1px solid black;
+    background: #eee;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+header {
+    height: 100px;
+    outline: 1px solid red;
+    background: #fee;
+    margin-left: 0.52%;
+    margin-right: 0.52%;
+    margin-bottom: 5px;
+}
+
+section {
+    width: 78.2%;
+    height: 400px;
+    float: left;
+    outline: 1px solid red;
+    margin-bottom: 5px;
+}
+
+section > article {
+    float: left;
+    width: 49.3%;
+    height: 400px;
+    margin-left: 0.66%;
+    outline: 1px solid black;
+}
+
+aside {
+    width: 21.7%;
+    float: left;
+    height: 400px;
+    outline: 1px solid red;
+    margin-bottom: 5px;
+}
+
+aside > article {
+    width: 95.1%;
+    height: 400px;
+    float: left;
+    outline: 1px solid red;
+    margin: 0.2% 0.2%;
+}
+
+footer {
+    clear: both;
+    height: 100px;
+    outline: 1px solid red;
+    background: #fee;
+    margin-left: 0,52%;
+    margin-right: 0,52%;
+}

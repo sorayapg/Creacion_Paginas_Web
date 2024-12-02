@@ -1,0 +1,110 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#contenedor {
+    font-family: 'Roboco', sans-serif;
+    width: 90%;
+    margin: 10px auto;
+}
+
+#contenedor > header {
+    width: 100%;
+    height: 220px;
+    background: #eee;
+    padding: 2em;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+section  {
+    margin-top: 50px;
+    width: 100%;
+}
+
+section > header > h4 {
+    font-size: 1.4em;
+}
+
+section > article {
+    box-sizing: border-box;
+    width: 23%;
+    float: left;
+    border: 1px solid #eee;
+    text-align: center;
+    padding: 4px;
+}
+
+section > article:nth-child(n+3) {
+    margin-left: 2.666666%;
+}
+
+article > img {
+    width: 100%;
+    height: auto;
+}
+
+article > h3 {
+    margin-top: 1.2em;
+    margin-bottom: .8em;
+}
+
+article > p {
+    margin-bottom: .8em;
+    font-size: .8em;
+    color: #666;
+}
+
+header > h1 {
+    font-size: 3em;
+    margin-bottom: .2em;
+}
+
+header > p {
+    font-size: 1.2em;
+    margin-bottom: .9em;
+}
+
+header > a {
+    font-size: 1.2em;
+    text-decoration: none;
+    background: #333;
+    padding: .4em;
+    color: #fff;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.limpiar {
+    clear: both;
+    margin-bottom: 1.2em;
+}
+
+article > a {
+    font-size: .7em;
+    text-decoration: none;
+    background: #33f;
+    padding: .4em;
+    color: #fff;
+    border-radius: 5px 5px 5px 5px;
+    margin-bottom: 1em;
+}
+
+footer {
+    clear: both;
+    padding: 20px;
+    color: #999;
+}
+
+.more {
+    background: #fff;
+    color: #000;
+    border:  .1em solid #666;
+
+    padding: .3em;
+    border-radius: 5px 5px 5px 5px;
+    
+}

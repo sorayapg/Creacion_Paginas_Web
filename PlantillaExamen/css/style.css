@@ -1,0 +1,137 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Karla", sans-serif;
+    line-height: 1.5;
+    
+}
+
+header {
+    text-align: center;
+    background-color: black;
+    padding: 2rem 1rem;
+    color: white
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1rem;
+    color: white;
+}
+
+.branding {
+    height: 100vh;
+    background-image: url(https://images.pexels.com/photos/1270184/pexels-photo-1270184.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+/*.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}*/
+
+.features {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.feature {
+    
+    padding: 1rem;
+    border-radius: 8px;
+    margin-top: -6rem;
+    color: #fff;
+    width: 10rem;
+}
+
+.feature i {
+    font-size: 100px;
+    color: #007bff;
+    margin-bottom: 0.5rem;
+    
+}
+
+.about {
+    background: #ff4757;
+    
+}
+
+.bi.bi-file-person-fill, .bi.bi-backpack2-fill, .bi.bi-house-heart, .bi.bi-flower1 {
+    color: #fff; 
+}
+
+.strategy {
+    background: #4b4a4a;
+}
+
+.mission {
+    background: #ff4757;
+}
+
+.support {
+    background: #4b4a4a;
+}
+
+.feature h3 {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+.cta  {
+    text-align: center;
+    padding: 5rem;
+    
+    
+}
+
+.mayuscula {
+    text-transform: uppercase;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.cta .highlight {
+    color: #ff4757;
+    font-weight: bold;
+    
+}
+
+.cta button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #ff4757;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+.cta button:hover {
+    background-color: #e63946;
+}
+

@@ -1,0 +1,20 @@
+body {
+    margin: '0';
+}
+
+#formulario {
+    width: 400px;
+}
+
+.izquierda {
+    width: 30%;
+    float: left;
+    box-sizing: border-box;
+    padding: 3px;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid rgba(100, 100, 100, .5);
+    padding: 10px;
+}

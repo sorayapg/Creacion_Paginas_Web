@@ -1,0 +1,39 @@
+#contenedor {
+    margin: 0 ;
+    width: 960px;
+}
+
+header, footer {
+    background: #c00;
+    height: 100px;
+}
+
+section {
+    background: #ccc;
+    float: left;
+    height: 400px;
+    width: 720px;
+}
+
+section > article {
+    float: left;
+    height: 400px;
+    outline: 1px solid red;
+    width: 240px;
+}
+
+aside {
+    float: left;
+    width: 240px;
+}
+
+aside > article {
+    background: #ee3;
+    height: 400px;
+    outline: 1px solid red;
+    width: 240px;
+}
+
+footer {
+    clear: both;
+}
